@@ -1,0 +1,163 @@
+/**
+ * This file should get overwritten if Method 1 is used. If Method 2 is chosen,
+ * remove this comment and start adding your styles to this file.
+ */
+body {
+  background:url('../images/crossword.png') repeat;
+}
+.wrapper {
+	/*max-width: 720px;*/
+	margin: auto;
+}
+header#navbar {
+	background: transparent;
+	border: none;
+	margin: 0 auto;
+}
+div#header_image {
+	text-align: center;
+}
+#header_image img {
+	width: 400px;
+	max-width:100%;
+}
+img {
+	max-width:100%;
+}
+.navbar-nav>li>a {
+		font-size: 1.5em;
+		background:none!important;
+		color:#333!important;
+		padding:0;
+		margin:25px;
+}
+.navbar-nav>li>a.active {
+	text-decoration: underline;
+}
+.navbar-nav>li {
+	float:none;
+}
+.nav>li {
+	position: relative;
+	display: inline-block;
+}
+.navbar-nav {
+	float:none;
+	text-align: center;
+}
+.menu.nav.navbar-nav li a {
+	-webkit-transition: all .5s ease;
+	transition: all .25s ease;
+}
+.menu.nav.navbar-nav li a:hover {
+	text-decoration: none;
+}
+button.navbar-toggle {
+	position: absolute;
+	top: 20px;
+	right: 0px;
+}
+.navbar-default .navbar-toggle {
+	border-color: black;
+	-webkit-transition:all .25s;
+	transition:all .25s;
+}
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: black;
+}
+.front-page-box {
+
+	text-align: center;
+	margin:15px 0;
+	background: url("../images/border-image.png");
+	background-size:100% 100%;
+	border-radius: 5px;
+	    box-sizing: border-box; /* add this */
+    -moz-box-sizing: border-box; /* Firefox */
+    -webkit-box-sizing: border-box; /* Older Webkit browsers */
+}
+img#hr {
+	width: 98%;
+  margin-left:1%;
+	margin-bottom:25px;
+}
+.front-page-pic {
+	width: 100%;
+	height:auto;
+	padding: 10px;
+	max-width: 100%;
+	max-height: 100%;
+	box-sizing: border-box; /* add this */
+    -moz-box-sizing: border-box; /* Firefox */
+    -webkit-box-sizing: border-box; /* Older Webkit browsers */
+}
+@media screen and (max-width: 600px){
+	.front .col-xs-6 {
+		width: 100%;6
+	}
+}
+@media screen and (max-width: 665px){
+	#header_image img {
+		width: 400px;
+		max-width: 80%;
+		float: left;
+	}
+}
+.field-name-field-image-comic img {
+	width: 70%;
+	height: auto;
+	margin: auto;
+	display: block;
+}
+.field-collection-view{
+	border-bottom:none;
+}
+li.views-fluid-grid-item {
+	background:none;
+	border:none;
+}
+li.views-fluid-grid-item a {
+	color: black;
+	text-decoration: none;
+	font-size: 17px;
+	font-family: raleway;
+}
+li.views-fluid-grid-item a:hover {
+	text-decoration:none;
+	color:black;
+}
+.field-name-field-image-comic img {
+	padding: 10px;
+	background: url("../images/border-image.png");
+	background-size: 100% 100%;
+	border-radius: 3px;
+}
+.page-header {
+	text-align: center;
+	font-family:helvetica;
+	text-transform: lowercase;
+}
+.views-field-title a {
+	font-family: helvetica!important;
+	color: #555!important;
+}
+.views-fluid-grid-inline img {
+	height: auto;
+	background: url(../images/new-border.jpg);
+	padding: 5px;
+	background-size: 100% 100%;
+}
+img#apply {
+	position: absolute;
+	top: 0;
+	right: 0;
+}
+.page-node-10 #apply {
+	display:none;
+}
+.front div#header_image {
+	margin-bottom: 20px;
+}
+.node-type-webform h1.page-header {
+	display: none;
+}
