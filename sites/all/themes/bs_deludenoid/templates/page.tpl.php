@@ -75,7 +75,7 @@
 ?>
 <header id="navbar" role="banner" class="<?php print $navbar_classes; ?>">
   <div id="header_image">
-    <a href="<?php print base_path(); ?>"><img src="<?php print base_path() ?>/sites/all/themes/bs_deludenoid/images/header_image.png" /></a>
+        <a href="<?php print base_path(); ?>"><img src="<?php print(drupal_get_path('theme', 'bs_deludenoid'));?>/images/header_image_yellow.png" /><h1>Deludenoid</h1></a>
   </div>
   <div class="container">
     <div class="navbar-header">

@@ -3,7 +3,8 @@
  * remove this comment and start adding your styles to this file.
  */
 body {
-  background:url('../images/crossword.png') repeat;
+  background:#b8ffb8;
+  outline: none!important;
 }
 .wrapper {
 	/*max-width: 720px;*/
@@ -18,8 +19,21 @@ div#header_image {
 	text-align: center;
 }
 #header_image img {
-	width: 400px;
-	max-width:100%;
+	margin-top: -40px;
+    max-width: 100%;
+    width: 120px;
+}
+header h1 {
+    display: inline-block;
+    font-family: "Amatic SC";
+    font-size: 6em;
+    color: #333;
+}
+header h3 {
+    font-family: "Amatic SC";
+    color: #333;
+    font-size:2.5em;
+    text-transform: capitalize!important;
 }
 img {
 	max-width:100%;
@@ -48,6 +62,8 @@ img {
 .menu.nav.navbar-nav li a {
 	-webkit-transition: all .5s ease;
 	transition: all .25s ease;
+	font-family: "Patrick Hand";
+	color: tomato#333 !important;
 }
 .menu.nav.navbar-nav li a:hover {
 	text-decoration: none;
@@ -58,33 +74,32 @@ button.navbar-toggle {
 	right: 0px;
 }
 .navbar-default .navbar-toggle {
-	border-color: black;
+	border:none;
 	-webkit-transition:all .25s;
 	transition:all .25s;
 }
 .navbar-default .navbar-toggle .icon-bar {
-	background-color: black;
+	background-color: tomato#333;
 }
 .front-page-box {
 
 	text-align: center;
 	margin:15px 0;
-	background: url("../images/border-image.png");
-	background-size:100% 100%;
-	border-radius: 5px;
-	    box-sizing: border-box; /* add this */
+	padding: 10px;
+	box-sizing: border-box; /* add this */
     -moz-box-sizing: border-box; /* Firefox */
     -webkit-box-sizing: border-box; /* Older Webkit browsers */
 }
 img#hr {
-	width: 98%;
-  margin-left:1%;
-	margin-bottom:25px;
+    margin-bottom: 25px;
+    margin-left: 13%;
+    width: 74%;
 }
 .front-page-pic {
+	border: 3px solid green;
+	border-radius: 20px;
 	width: 100%;
 	height:auto;
-	padding: 10px;
 	max-width: 100%;
 	max-height: 100%;
 	box-sizing: border-box; /* add this */
@@ -93,7 +108,7 @@ img#hr {
 }
 @media screen and (max-width: 600px){
 	.front .col-xs-6 {
-		width: 100%;6
+		width: 100%;
 	}
 }
 @media screen and (max-width: 665px){
@@ -119,33 +134,32 @@ li.views-fluid-grid-item {
 li.views-fluid-grid-item a {
 	color: black;
 	text-decoration: none;
-	font-size: 17px;
-	font-family: raleway;
+	font-size: 20px;
+	margin-bottom: 10px;
 }
 li.views-fluid-grid-item a:hover {
 	text-decoration:none;
 	color:black;
 }
 .field-name-field-image-comic img {
-	padding: 10px;
-	background: url("../images/border-image.png");
-	background-size: 100% 100%;
-	border-radius: 3px;
+	border: 3px solid tomato#333;
 }
 .page-header {
+	font-size: 3em;
 	text-align: center;
-	font-family:helvetica;
-	text-transform: lowercase;
+	font-family:"Amatic SC";
+	color: tomato#333;
+	border: none;
 }
 .views-field-title a {
-	font-family: helvetica!important;
+	font-family: 'Patrick Hand'!important;
+	margin-bottom: 5px;
 	color: #555!important;
 }
 .views-fluid-grid-inline img {
 	height: auto;
-	background: url(../images/new-border.jpg);
-	padding: 5px;
-	background-size: 100% 100%;
+	border: 3px solid green;
+	border-radius: 3px;
 }
 img#apply {
 	position: absolute;
@@ -155,9 +169,35 @@ img#apply {
 .page-node-10 #apply {
 	display:none;
 }
-.front div#header_image {
-	margin-bottom: 20px;
-}
 .node-type-webform h1.page-header {
 	display: none;
+}
+.field-collection-container {
+    border-bottom: none;
+}
+.footer {
+    border-top: none;
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form {
+    border-color: transparent!important;
+}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus {
+    background-color: transparent;
+}
+ul.views-fluid-grid-items-height-250 li.views-fluid-grid-item {
+    height: auto;
+}
+@media all and (max-width:500px) {
+	.field-name-field-image-comic img {
+	    width: 100%;
+	}
+	.col-sm-12 {
+		padding-left: 0;
+		padding-right: 0;
+	}
+	.field-collection-view {
+	    border-bottom: none;
+	    margin: 0 5px;
+	    padding: 0;
+	}
 }

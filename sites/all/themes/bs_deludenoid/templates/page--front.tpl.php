@@ -75,7 +75,8 @@
 ?>
 <header id="navbar" role="banner" class="<?php print $navbar_classes; ?>">
   <div id="header_image">
-    <a href="<?php print base_path(); ?>"><img src="<?php print(drupal_get_path('theme', 'bs_deludenoid'));?>/images/header_image.png" /></a>
+    <a href="<?php print base_path(); ?>"><img src="<?php print(drupal_get_path('theme', 'bs_deludenoid'));?>/images/header_image_yellow.png" /><h1>Deludenoid</h1></a>
+    <h3>A website devoted to delusional thoughts on entertainment, consumer products and general life</h3>
   </div>
   <div class="container">
     <!--<div class="navbar-header">
@@ -130,24 +131,19 @@
 
   <div class="wrapper">
     <div class="row">
-      <div class="col-md-3 col-sm-6 col-xs-6">
-        <div class="front-page-box">
-            <a href="<?php print base_path() ?>political-cartoon-upload"><img class="front-page-pic img-responsive" src="<?php print base_path() ?>/sites/all/themes/bs_deludenoid/images/Contest_Icon.png" /></a>
+      <div class="col-md-4 col-sm-6 col-xs-6">
+        <div class="front-page-box" id="pcu">
+            <a href="<?php print base_path() ?>entertainment-cartoons-gallery"><img class="front-page-pic img-responsive" src="<?php print base_path() ?>/sites/all/themes/bs_deludenoid/images/Entertainment_Category_Icon.jpg" /></a>
         </div>
       </div>
-      <div class="col-md-3 col-sm-6 col-xs-6">
-        <div class="front-page-box">
-           <a href="<?php print base_path() ?>political-cartoons"><img class="front-page-pic img-responsive" src="<?php print base_path() ?>/sites/all/themes/bs_deludenoid/images/Political Cartoons Icon.jpg" /></a>
+      <div class="col-md-4 col-sm-6 col-xs-6">
+        <div class="front-page-box" id="dg">
+          <a href="<?php print base_path() ?>delusions-gallery"><img class="front-page-pic img-responsive" src="<?php print base_path() ?>/sites/all/themes/bs_deludenoid/images/Deludenoid of the day_Final.jpg" /></a>
         </div>
       </div>
-      <div class="col-md-3 col-sm-6 col-xs-6">
-        <div class="front-page-box">
-          <img class="front-page-pic img-responsive" src="<?php print base_path() ?>/sites/all/themes/bs_deludenoid/images/Deludenoid of the day.jpg" />
-        </div>
-      </div>
-      <div class="col-md-3 col-sm-6 col-xs-6">
-        <div class="front-page-box">
-          <a href="<?php print base_path() ?>comics-gallery"><img class="front-page-pic img-responsive" src="<?php print base_path() ?>/sites/all/themes/bs_deludenoid/images/Sky_Mall_Icon.jpg" /></a>
+      <div class="col-md-4 col-sm-6 col-xs-6">
+        <div class="front-page-box" id="cg">
+          <a href="<?php print base_path() ?>comics-gallery"><img class="front-page-pic img-responsive" src="<?php print base_path() ?>/sites/all/themes/bs_deludenoid/images/Sky_Mall_Icon_New.jpg" /></a>
         </div>
       </div>
     </div>
