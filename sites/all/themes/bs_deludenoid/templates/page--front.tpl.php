@@ -75,7 +75,7 @@
 ?>
 <header id="navbar" role="banner" class="<?php print $navbar_classes; ?>">
   <div id="header_image">
-    <a href="<?php print base_path(); ?>"><img src="<?php print(drupal_get_path('theme', 'bs_deludenoid'));?>/images/header_image_yellow.png" /><h1>Deludenoid</h1></a>
+    <a href="<?php print base_path(); ?>"><img src="/<?php print(drupal_get_path('theme', 'bs_deludenoid'));?>/images/header_image_yellow.png" /><h1>Deludenoid</h1></a>
     <h3>A website devoted to delusional thoughts on entertainment, consumer products and general life</h3>
   </div>
   <div class="container">
@@ -117,7 +117,7 @@
   </div>
 </header>
 
-<img id="hr" src="sites/all/themes/bs_deludenoid/images/hr.png">
+<img id="hr" src="/sites/all/themes/bs_deludenoid/images/hr.png">
 
 <div class="main-container container">
 
@@ -133,17 +133,17 @@
     <div class="row">
       <div class="col-md-4 col-sm-6 col-xs-6">
         <div class="front-page-box" id="pcu">
-            <a href="entertainment-cartoons-gallery"><img class="front-page-pic img-responsive" src="sites/all/themes/bs_deludenoid/images/Entertainment_Category_Icon.jpg" /></a>
+            <a href="entertainment-cartoons-gallery"><img class="front-page-pic img-responsive" src="/sites/all/themes/bs_deludenoid/images/Entertainment_Category_Icon.jpg" /></a>
         </div>
       </div>
       <div class="col-md-4 col-sm-6 col-xs-6">
         <div class="front-page-box" id="dg">
-          <a href="delusions-gallery"><img class="front-page-pic img-responsive" src="sites/all/themes/bs_deludenoid/images/Deludenoid of the day_Final.jpg" /></a>
+          <a href="delusions-gallery"><img class="front-page-pic img-responsive" src="/sites/all/themes/bs_deludenoid/images/Deludenoid of the day_Final.jpg" /></a>
         </div>
       </div>
       <div class="col-md-4 col-sm-6 col-xs-6">
         <div class="front-page-box" id="cg">
-          <a href="comics-gallery"><img class="front-page-pic img-responsive" src="sites/all/themes/bs_deludenoid/images/Sky_Mall_Icon_New.jpg" /></a>
+          <a href="comics-gallery"><img class="front-page-pic img-responsive" src="/sites/all/themes/bs_deludenoid/images/Sky_Mall_Icon_New.jpg" /></a>
         </div>
       </div>
     </div>
