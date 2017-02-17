@@ -117,7 +117,7 @@
   </div>
 </header>
 
-<img id="hr" src="<?php print base_path() ?>/sites/all/themes/bs_deludenoid/images/hr.png">
+<img id="hr" src="sites/all/themes/bs_deludenoid/images/hr.png">
 
 <div class="main-container container">
 
@@ -133,17 +133,17 @@
     <div class="row">
       <div class="col-md-4 col-sm-6 col-xs-6">
         <div class="front-page-box" id="pcu">
-            <a href="<?php print base_path() ?>entertainment-cartoons-gallery"><img class="front-page-pic img-responsive" src="<?php print base_path() ?>/sites/all/themes/bs_deludenoid/images/Entertainment_Category_Icon.jpg" /></a>
+            <a href="entertainment-cartoons-gallery"><img class="front-page-pic img-responsive" src="sites/all/themes/bs_deludenoid/images/Entertainment_Category_Icon.jpg" /></a>
         </div>
       </div>
       <div class="col-md-4 col-sm-6 col-xs-6">
         <div class="front-page-box" id="dg">
-          <a href="<?php print base_path() ?>delusions-gallery"><img class="front-page-pic img-responsive" src="<?php print base_path() ?>/sites/all/themes/bs_deludenoid/images/Deludenoid of the day_Final.jpg" /></a>
+          <a href="delusions-gallery"><img class="front-page-pic img-responsive" src="sites/all/themes/bs_deludenoid/images/Deludenoid of the day_Final.jpg" /></a>
         </div>
       </div>
       <div class="col-md-4 col-sm-6 col-xs-6">
         <div class="front-page-box" id="cg">
-          <a href="<?php print base_path() ?>comics-gallery"><img class="front-page-pic img-responsive" src="<?php print base_path() ?>/sites/all/themes/bs_deludenoid/images/Sky_Mall_Icon_New.jpg" /></a>
+          <a href="comics-gallery"><img class="front-page-pic img-responsive" src="sites/all/themes/bs_deludenoid/images/Sky_Mall_Icon_New.jpg" /></a>
         </div>
       </div>
     </div>
