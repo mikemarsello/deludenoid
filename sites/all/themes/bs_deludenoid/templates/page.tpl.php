@@ -115,7 +115,7 @@
   </div>
 </header>
 
-  <img id="hr" src="<?php print base_path() ?>/sites/all/themes/bs_deludenoid/images/hr.png" />
+  <img id="hr" src="sites/all/themes/bs_deludenoid/images/hr.png" />
 
 <div class="main-container container">
 
